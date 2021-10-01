@@ -1,0 +1,352 @@
+body {
+    text-align-all: center;
+    background-color: black;
+    margin-top:10px;
+    margin-left: 100px;
+}
+
+.wd-section-A {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    border:1px solid rgb(47, 51, 54);
+    width:35%;
+    padding-bottom: 15px;
+    padding-top:20px;
+    margin-left: 500px;
+    border-bottom-style: none;
+    border-top-style: none;
+}
+
+.wd-search-bar {
+    margin-right:12px;
+    padding-left:16px;
+    width:500px;
+    background-color:darkgray;
+    border-radius:30px;
+}
+
+.wd-search-input {
+    background:transparent;
+    border:none;
+    width:450px;
+    height:40px;
+    padding-left:16px;
+}
+
+.wd-search-input:focus {
+    outline:none;
+}
+
+.wd-search-input::selection {
+    background-color: #ffffff;
+}
+
+::placeholder {
+    color:white;
+    font-size:20px;
+    font-family: "Helvetica Neue", serif;
+
+}
+
+.fa-cog {
+    padding-top:5px;
+    color:rgb(29, 161, 242);
+}
+
+.fa-search {
+    color:white;
+}
+
+.wd-section-B {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:35%;
+    border:1px solid rgb(47, 51, 54);
+    border-top-style:none;
+    margin-left: 500px;
+    padding-bottom: 9px;
+}
+
+.wd-nav-links {
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-left:16px;
+}
+
+.wd-nav-links > .wd-for-you {
+    color:rgb(29, 161, 242);
+    text-decoration:none;
+    padding:16px;
+    font-size:15px;
+    font-family: "Helvetica Neue", serif;
+    border: 2px none rgb(29, 161, 242);
+    border-bottom-style: solid;
+}
+
+.wd-for-you:hover {
+    text-decoration: none;
+    background-color: white;
+    transition: 0.5s, 0.5s, 0.5s, 0.5s, 0.5s, 0.5s;
+    border-radius:5px;
+}
+
+.wd-trending, .wd-covid, .wd-news, .wd-sports, .wd-entertainment {
+    color:rgb(110, 118, 125);
+    text-decoration:none;
+    padding:16px;
+    font-size:15px;
+    font-family:"Helvetica Neue", serif;
+}
+
+.wd-trending:hover, .wd-covid:hover, .wd-news:hover, .wd-sports:hover, .wd-entertainment:hover {
+    text-decoration:none;
+    background-color:white;
+    transition:0.5s, 0.5s, 0.5s, 0.5s, 0.5s, 0.5s;
+    border-radius:5px;
+}
+
+.wd-temp {
+    width:35%;
+    float:left;
+    position:relative;
+    font-size:8px;
+    color:rgb(24, 27, 28);
+    border:1px solid rgb(47, 51, 54);
+    background-color:rgb(24, 27, 28);
+    margin-left: 500px;
+}
+
+.wd-section-C1 {
+    display:block;
+    justify-content:center;
+    align-items:center;
+    width:35%;
+    border:1px solid rgb(47, 51, 54);
+    margin-left:500px;
+}
+
+.wd-section-C1 > .wd-C1-para1 {
+    color:rgb(110, 118, 125);
+    padding-top:10px;
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+    font-size:13px;
+    margin-bottom:-10px;
+}
+
+.wd-section-C1 > .wd-C1-para2 {
+    color:white;
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+}
+
+.wd-C1-para3 {
+    color:rgb(110, 118, 125);
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+    font-size:13px;
+    margin-top:-10px;
+}
+
+.fa-ellipsis-h {
+    color:rgb(110, 118, 125);
+    float:right;
+    margin-right:16px;
+    margin-top:10px;
+}
+
+.wd-section-C2 {
+    display:block;
+    justify-content:center;
+    align-items:center;
+    width:35%;
+    border:1px solid rgb(47, 51, 54);
+    margin-left:500px;
+}
+
+.wd-section-C2 > .wd-C2-para1 {
+    color:rgb(110, 118, 125);
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+    font-size:13px;
+    margin-bottom:-10px;
+}
+
+.wd-section-C2 > .wd-C2-para2 {
+    color:white;
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+}
+
+.wd-C2-para3 {
+    color:rgb(110, 118, 125);
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+    font-size:13px;
+    margin-top:-10px;
+}
+
+.wd-section-E1 {
+    display:inline-block;
+    justify-content:left;
+    align-items:flex-start;
+    width:35%;
+    border:1px solid rgb(47, 51, 54);
+    margin-left:500px;
+}
+
+.wd-E1-para1 {
+    color:rgb(110, 118, 125);
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+    font-size:13px;
+    margin-bottom:-10px;
+    float:left;
+}
+
+.wd-E1-para2 {
+    color:white;
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+    float:left;
+}
+
+.wd-ma-covid {
+    display: inline-block;
+    border-radius:5px;
+    width:100px;
+    height:100px;
+    float:right;
+    margin-right:16px;
+    margin-bottom:16px;
+}
+
+.wd-section-E2 {
+    display:inline-block;
+    justify-content:left;
+    align-items:flex-start;
+    width:35%;
+    border:1px solid rgb(47, 51, 54);
+    margin-left:500px;
+}
+
+.wd-E2-para1 {
+    color:rgb(110, 118, 125);
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+    font-size:13px;
+    margin-bottom:-10px;
+}
+
+.wd-E2-para2 {
+    color:white;
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+}
+
+.wd-biden {
+    display: inline;
+    border-radius:5px;
+    width:100px;
+    height:100px;
+    float:right;
+    position: relative;
+    margin-right:16px;
+    margin-bottom:16px;
+    margin-top:-70px;
+}
+
+.wd-verified {
+    height:15px;
+    width:15px;
+    padding-top:5px;
+}
+
+.wd-section-D1 {
+    display:block;
+    width:35%;
+    border:1px solid rgb(47, 51, 54);
+    margin-left:500px;
+    padding-bottom:45px;
+}
+
+.fa-check-circle {
+    color:rgb(29, 161, 242);
+}
+
+.wd-D1-para1 {
+    color: white;
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+    font-size:13px;
+    margin-bottom:-10px;
+}
+
+.wd-D1-para1span {
+    color:rgb(110, 118, 125);
+    font-family:"Helvetica Neue", serif;
+    font-size:13px;
+    margin-left:2px;
+}
+
+.wd-D1para2 {
+    color: white;
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+}
+
+.wd-stanford {
+    display: inline;
+    border-radius:5px;
+    width:100px;
+    height:100px;
+    float:right;
+    position: relative;
+    margin-right:16px;
+    margin-bottom:16px;
+    margin-top:-70px;
+}
+
+.wd-section-D2 {
+    display:block;
+    width:35%;
+    border:1px solid rgb(47, 51, 54);
+    margin-left:500px;
+    padding-bottom:60px;
+}
+
+.wd-D2-para1 {
+    color: white;
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+    font-size:13px;
+    margin-bottom:-10px;
+}
+
+.wd-D2-para1span {
+    color:rgb(110, 118, 125);
+    font-family:"Helvetica Neue", serif;
+    font-size:13px;
+    margin-left:2px;
+}
+
+.wd-D2para2 {
+    color: white;
+    margin-left:16px;
+    font-family:"Helvetica Neue", serif;
+}
+
+.wd-cali {
+    display: inline;
+    border-radius:5px;
+    width:100px;
+    height:100px;
+    float:right;
+    position: relative;
+    margin-right:16px;
+    margin-bottom:16px;
+    margin-top:-59px;
+}
