@@ -1,0 +1,296 @@
+.rotate-paragraph {
+    width: 250px;
+    height: 250px;
+    transform: rotate(90deg);
+}
+
+.rotate-list {
+    transform: rotate(12deg);
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+.wd-rotate-list2 {
+    transform: rotate(-30deg);
+    width: 100px;
+    background-color: blue;
+    color:pink;
+}
+
+.rotate-list-items li {
+    width: 100px;
+    text-align: right;
+}
+.rotate-list-items li:nth-child(1) {
+    transform: rotate(-10deg);
+    background-color: yellow;
+}
+.rotate-list-items li:nth-child(2) {
+    transform: rotate(2deg);
+    background-color: blue;
+    color: white;
+}
+.rotate-list-items li:nth-child(3) {
+    transform: rotate(10deg);
+    background-color: red;
+}
+
+.rotate-image {
+    transform: rotate(-10deg);
+}
+
+.rotate-image2 {
+    transform:rotate(-30deg);
+}
+
+.rotate-table {
+    position: relative;
+    left: 50px;
+    transform: rotate(15deg);}
+.rotate-table tr:nth-child(1) {
+    background-color: black;
+    color: white;}
+.rotate-table tr:nth-child(n+2) {
+    background-color: yellow;}
+.rotate-table tr:nth-child(n+5) {
+    background-color: blue;
+    color: white;}
+.rotate-table tr:nth-child(n+8) {
+    background-color: red;}
+.rotate-table tr:nth-child(n+11) {
+    background-color: green;
+    color: white;
+}
+
+.gradients-linear {
+    background: linear-gradient(yellow, red);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-linear2 {
+    background: linear-gradient(blue, pink);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-radial {
+    background: radial-gradient(yellow, green);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-radial2 {
+    background: radial-gradient(white, orange);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-positioned {
+    background: radial-gradient(at top left, blue, red);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.gradients-positioned2 {
+    background: radial-gradient(at top right, pink, green);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.animation-keyframes {
+    position: relative;
+    top: 0px;
+    animation-duration: 7s;
+    animation-name: slidein;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+}
+
+@keyframes slidein {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        color: black;
+    }
+
+    50% {
+        position: relative;
+        top: -200px;
+        font-size: 300%;
+        margin-left: 25%;
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        color: white;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 0%;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: white;
+    }
+}
+
+.animation-keyframes2 {
+    position: relative;
+    top: 15px;
+    animation-duration: 5s;
+    animation-name: slidingIn;
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+
+@keyframes slidingIn {
+    from {
+        position: relative;
+        top: 5px;
+        font-size: 60%;
+        margin-left: 45%;
+        width: 320px;
+        height: 100px;
+        background-color: white;
+        color: black;
+    }
+
+    60% {
+        position: fixed;
+        top: -150px;
+        font-size: 7%;
+        margin-left: 55%;
+        width: 200px;
+        height: 99px;
+        background-color: green;
+        color: wheat;
+    }
+
+    to {
+        position: relative;
+        top: 5px;
+        font-size: 60%;
+        margin-left: 55%;
+        width: 420px;
+        height: 100px;
+        background-color: white;
+        color: black;
+    }
+}
+
+.flex-container, .flex-container1, .flex-container2, .flex-container3, .flex-container4, .flex-container5, .flex-container6 {
+    border-width: 5px;
+    border-color: gray;
+    border-style: dotted;
+}
+.flex-box {
+    border: 2px palegreen dashed;
+    margin: 30px;
+    padding: 2px;
+}
+.flex-box-1 {
+    background-color: orange;
+}
+.flex-box-2 {
+    background-color: crimson;
+    color: mintcream;
+}
+.flex-box-3 {
+    background-color: black;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: end;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flex-container4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.flex-container5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container6 {
+    display: flex;
+
+}
+.flex-container6 > .flex-box {
+    flex-basis: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+    body {
+        background-color: black;
+    }
+    .media-query {
+        background-color: darkgreen;
+        color: mintcream;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+    body {
+        background-color: orangered;
+        color: white;
+
+    }
+    .media-query {
+        background-color: pink;
+        font-family: "Helvetica Neue", serif;
+        color: black;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 2000px) {
+    body {
+        background-color: lightblue;
+        color: brown;
+    }
+    .media-query {
+        background-color: darkgray;
+        color: palegreen;
+        font-family: "Helvetica Neue", serif;
+    }
+}
+
+

@@ -1,0 +1,170 @@
+body {
+    background-color: black;
+}
+
+.wd-section-A {
+    border:1px solid rgb(47, 51, 54);
+    width:35%;
+}
+
+.wd-title {
+    color:white;
+    margin-left:16px;
+    margin-top:12px;
+    font-family:"Helvetica Neue", serif;
+    font-size:20px;
+    margin-bottom: -30px;
+    font-weight: bold;
+}
+
+.wd-subtitle {
+    color:lightgray;
+    margin-left:16px;
+    margin-bottom:12px;
+    font-family:"Helvetica Neue", serif;
+    font-size:13px;
+}
+
+.fa-ellipsis-h {
+    color:rgb(29, 161, 242);
+    margin-right:16px;
+}
+
+.wd-dots {
+    margin-top:15px;
+    float:right;
+}
+
+.wd-section-B {
+    border:1px solid rgb(47, 51, 54);
+    padding-bottom:30px;
+    width:35%;
+}
+
+.wd-avatar1 {
+    display:inline;
+    border-radius: 50% 50%;
+    width:48px;
+    height:48px;
+    /* I added a margin of 12px to the right of the image so that the username is 12 px to the right */
+    margin: 10px 12px -30px 16px;
+}
+
+.wd-username {
+    display: inline;
+    font-family:"Helvetica Neue", serif;
+    color:white;
+    padding-top:12px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.wd-userHandle {
+    color:rgb(110, 118, 125);
+    font-size:15px;
+    font-weight:normal;
+}
+
+.wd-lorem1 {
+    color: white;
+    font-size: 15px;
+    margin-right:16px;
+    margin-top: -15px;
+    padding-left: 80px;
+    margin-bottom: 12px;
+    width:504px;
+    font-family:"Helvetica Neue", serif;
+}
+
+.wd-lecture {
+    width:504px;
+    height:264px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    /*
+    The image is 12px to the right of the avatar image. The diameter of the avatar is 48px and the avatar itself is
+    16px to the right of the left border. And there is a border of 1px around the image itself so 48 + 16 + 12 - 1 = 75px
+    for the left margin.
+     */
+    margin-left: 75px;
+    border:1px solid rgb(47, 51, 54);
+}
+
+.wd-sectionF {
+    border:1px solid rgb(47, 51, 54);
+    width:81.1%;
+    margin-top: -5px;
+    margin-left: 75px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.wd-secF-para1 {
+    color: white;
+    font-size: 15px;
+    margin-top: 12px;
+    font-family:"Helvetica Neue", serif;
+    padding: 12px;
+}
+
+.wd-secF-text {
+    color:rgb(110, 118, 125);
+    font-family:"Helvetica Neue", serif;
+    font-size: 15px;
+    padding:12px;
+    margin-top:-20px;
+}
+
+.wd-chain {
+    color:rgb(110, 118, 125);
+    font-family:"Helvetica Neue", serif;
+    font-size: 12px;
+    margin-left:12px;
+    margin-top: -10px;
+}
+
+.wd-sectionG {
+    margin-left: 75px;
+    margin-top:12px;
+}
+
+.wd-msgIcon {
+    color:rgb(110, 118, 125);
+    margin-right:12px;
+}
+
+.wd-num1 {
+    color:rgb(110, 118, 125);
+    font-family:"Helvetica Neue", serif;
+    font-size: 15px;
+    margin-right:100px;
+}
+
+.wd-retweet {
+    color:rgb(110, 118, 125);
+    margin-right:12px;
+}
+
+.wd-numRetweet {
+    color:rgb(110, 118, 125);
+    font-family:"Helvetica Neue", serif;
+    font-size: 15px;
+    margin-right:100px;
+}
+
+.wd-heart {
+    color:red;
+    margin-right:12px;
+}
+
+.wd-numLikes {
+    color:red;
+    font-family:"Helvetica Neue", serif;
+    font-size: 15px;
+    margin-right:100px;
+}
+
+.wd-upload {
+    color:rgb(110, 118, 125);
+    margin-right:12px;
+}

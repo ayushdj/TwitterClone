@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+}
+
+/*
+List modifications
+ */
+.list-group {
+    background-color: black;
+    !important;
+}
+
+.list-group-item {
+    background-color: black;
+    !important;
+}
+
+.list-group-item {
+    background-color: black;
+    color: white;
+}
+
+.wd-explore {
+
+}
+
+/*
+The navigation stuff
+ */
+.nav-tabs {
+    border:none;
+}
+.nav-link {
+    color: rgb(110, 118, 125);
+    border:none;
+}
+
+.nav-link:hover {
+    border:none;
+    color: white;
+}
+
+.nav-tabs>.active {
+    background-color: black;
+    border:none;
+}
+
+.wd-entertainment {
+    border-bottom: 2px solid rgb(29, 161, 242);
+}
+
+
+/*
+Editing buttons
+ */
+
+.wd-tweet-button {
+    background-color: rgb(29, 161, 242);
+}
+
+.wd-follow-button {
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    border:none;
+}
+
+/*
+    Search bar stuff
+ */
+.form-control {
+    background-color: #262626;
+    border:none;
+}
+
+.input-group-text {
+    color:rgb(110, 118, 125);
+    !important;
+}
+
+.wd-cog {
+    color:white;
+}
+
+/*
+Putting a border around the main middle column
+ */
+.wd-main-middle {
+    border: 1px solid #262626;
+    border-radius: 5px;
+}
