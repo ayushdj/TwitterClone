@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Explore</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="explore.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+    <!-- have a div to set what things should look like in xxl mode -->
+    <div class="d-xxl-block d-xl-block d-lg-block">
+        <!-- create container to put everything in -->
+        <div class="container py-5">
+            <!-- create grid system -->
+            <!-- main content goes here -->
+            <div class="row">
+                <!-- First column -->
+                <div class="col-xxl-3 col-xl-2 col-lg-1 col-md-2 col-sm-2">
+                    <div class="list-group">
+                        <li class="list-group-item" ><i class="fab fa-twitter"></i></li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-1 col-xl-1 col-lg-12">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <div class="col-xxl-11 col-xl-10 d-none d-xl-block d-xxl-block">
+                                    Home
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class=".wd-explore list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-1 col-xl-1 col-lg-12">
+                                    <i class="fas fa-hashtag"></i>
+                                </div>
+                                <div class="col-xxl-11 col-xl-10 d-none d-xl-block d-xxl-block">
+                                    Explore
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-1 col-xl-1 col-lg-12">
+                                    <i class="fas fa-bell"></i>
+                                </div>
+                                <div class="col-xxl-11 col-xl-10 d-none d-xl-block d-xxl-block">
+                                    Notifications
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-1 col-xl-1 col-lg-12">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="col-xxl-11 col-xl-10 d-none d-xl-block d-xxl-block">
+                                    Messages
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-1 col-xl-1 col-lg-12">
+                                    <i class="fas fa-bookmark"></i>
+                                </div>
+                                <div class="col-xxl-11 col-xl-10 d-none d-xl-block d-xxl-block">
+                                    Bookmarks
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-1 col-xl-1 col-lg-12">
+                                    <i class="fas fa-list"></i>
+                                </div>
+                                <div class="col-xxl-11 col-xl-10 d-none d-xl-block d-xxl-block">
+                                    Lists
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-1 col-xl-1 col-lg-12">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="col-xxl-11 col-xl-10 d-none d-xl-block d-xxl-block">
+                                    Profile
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-1 col-xl-1 col-lg-12">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </div>
+                                <div class="col-xxl-11 col-xl-10 d-none d-xl-block d-xxl-block">
+                                    More
+                                </div>
+                            </div>
+                        </li>
+                        <button type="submit" class="wd-tweet-button btn btn-primary rounded-pill col-xxl-12 col-xl-12 col-lg-12 col-md-12"
+                                style="margin-top: 10px">
+                            Tweet</button>
+                    </div>
+
+                </div>
+
+                <!-- The middle column -->
+                <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-10 col-sm-10 wd-main-middle">
+                    <div class="row mt-2">
+                        <div class="col-11">
+                            <label class="input-group-text bg-transparent rounded-pill border-0">
+                                <i class="fa fa-search"></i>
+                            </label>
+                            <input type="text" class="form-control rounded-pill" placeholder="Search Twitter"
+                                   style="padding-left:40px; margin-top:-32px">
+                        </div>
+                        <div class="col-1 wd-cog">
+                            <i class="fa fa-cog fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:10px">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link" href="for-you.html">For you</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="trending.html">Trending</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="news.html">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sports.html" tabindex="-1">Sports</a>
+                            </li>
+                            <li class="nav-item d-none d-md-block d-lg-block d-xl-block d-xxl-block wd-entertainment">
+                                <a class="nav-link" href="entertainment.html" tabindex="-1">Entertainment</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- create list group for image -->
+                    <div class="list-group col-xxl-12">
+                        <img src="starship.jpg" class="img-fluid" style="margin-top:15px">
+                        <p class="h1" style="margin-top: -55px; color:white; margin-left:10px">Space X's Starship</p>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                                    <div style="font-size:13px; color:rgb(110, 118, 125)">Web Development</div>
+                                    <div>
+                                        <strong style="font-size:13px">ReactJS <i class="fas fa-check-circle"></i>
+                                        </strong> <span style="font-size:12px; color:rgb(110, 118, 125)"> - 2h</span><br>
+                                        <strong style="font-size:13px">ReactJS is a component based front end library that makes
+                                            it very easy to build Single Page Applications or SPAs</strong>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                                    <img src="react.png" class="img-fluid rounded" style="width:100px; height:90px;">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                                    <div>
+                                        <strong style="font-size:13px">JavaScript <i class="fas fa-check-circle"></i>
+                                        </strong> <span style="font-size:12px; color:rgb(110, 118, 125)"> - 2h</span><br>
+                                        <strong style="font-size:13px">JavaScript is a programming language that
+                                        can run on browsers as well as desktops</strong>
+                                    </div>
+                                    <div style="font-size:13px; color:rgb(110, 118, 125)">123K Tweets</div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                                    <img src="jsLogo.png" class="img-fluid rounded" style="width:100px; height:90px;">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                                    <div style="font-size:13px; color:rgb(110, 118, 125)">Web Development</div>
+                                    <div>
+                                        <strong style="font-size:13px">jQuery </i></strong>
+                                    </div>
+                                    <div style="font-size:13px; color:rgb(110, 118, 125)">123K Tweets</div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                                    <img src="jquery.png" class="img-fluid rounded" style="width:100px; height:90px;">
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                                    <div style="font-size:13px; color:rgb(110, 118, 125)">Web Development</div>
+                                    <div>
+                                        <strong style="font-size:13px">ReactJS <i class="fas fa-check-circle"></i>
+                                        </strong> <span style="font-size:12px; color:rgb(110, 118, 125)"> - 2h</span><br>
+                                        <span style="font-size:12px; color:rgb(110, 118, 125)">123K Tweets</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                                    <img src="nodeJS.png" class="img-fluid rounded" style="width:120px; height:100px;">
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </div>
+                </div>
+
+                <!-- The last column -->
+                <div class="col-xxl-4 col-xl-4 col-lg-4 d-none d-lg-block d-xl-block d-xxl-block">
+                    <div class="list-group">
+                        <li class="list-group-item"><strong>Who to follow</strong></li>
+                        <!-- Java -->
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-2 col-xl-2 col-lg-2">
+                                    <img src="javaLogo.png" style="width:40px; height:40px; margin-left:-8px;margin-top:5px"
+                                         class="img-fluid rounded-circle">
+                                </div>
+                                <div class="col-xxl-7 col-xl-6 col-lg-6" style="margin-left:-25px">
+                                    <strong>Java <i class="fas fa-check-circle"></i></strong><br>
+                                    @Java
+                                </div>
+
+                                <div class="col-xxl-3 col-xl-2 col-lg-1 ps-5 pt-1">
+                                    <button type="submit" class="btn btn-primary rounded-pill align-middle wd-follow-button">
+                                        Follow</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Relativity Space -->
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-2 col-xl-2 col-lg-2">
+                                    <img src="relativitySpace.jpg" style="width:40px; height:40px; margin-left:-8px;margin-top:5px"
+                                         class="img-fluid rounded-circle">
+                                </div>
+                                <div class="col-xxl-7 col-xl-6 col-lg-6" style="margin-left:-25px">
+                                        <strong>Relativity Space <i class="fas fa-check-circle"></i></strong>
+                                        @relativityspace
+                                </div>
+
+                                <div class="col-xxl-3 col-xl-2 col-lg-1 ps-5 pt-1">
+                                    <button type="submit" class="btn btn-primary rounded-pill align-middle wd-follow-button">
+                                        Follow</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Virgin -->
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-2 col-xl-2 col-lg-2">
+                                    <img src="virgin.png" style="width:40px; height:40px; margin-left:-8px;margin-top:5px"
+                                         class="img-fluid rounded-circle">
+                                </div>
+                                <div class="col-xxl-7 col-xl-6 col-lg-6" style="margin-left:-25px">
+                                    <strong>Virgin Galactic <i class="fas fa-check-circle"></i></strong><br>
+                                    @virgingalactic
+                                </div>
+
+                                <div class="col-xxl-3 col-xl-2 col-lg-1 ps-5 pt-1">
+                                    <button type="submit" class="btn btn-primary rounded-pill align-middle wd-follow-button">
+                                        Follow</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- NASA -->
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-2 col-xl-2 col-lg-2">
+                                    <img src="nasa.png" style="width:150px; height:40px; margin-left:-8px;margin-top:5px"
+                                         class="img-fluid rounded-circle">
+                                </div>
+                                <div class="col-xxl-7 col-xl-6 col-lg-6" style="margin-left:-25px">
+                                    <strong>Nasa <i class="fas fa-check-circle"></i></strong><br>
+                                    @nasa
+                                </div>
+
+                                <div class="col-xxl-3 col-xl-2 col-lg-1 ps-5 pt-1">
+                                    <button type="submit" class="btn btn-primary rounded-pill align-middle wd-follow-button">
+                                        Follow</button>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Tesla -->
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-xxl-2 col-xl-2 col-lg-2">
+                                    <img src="tesla.png" style="width:150px; height:40px; margin-left:-8px;margin-top:5px"
+                                         class="img-fluid rounded-circle">
+                                </div>
+                                <div class="col-xxl-7 col-xl-6 col-lg-6" style="margin-left:-25px">
+                                    <strong>Tesla <i class="fas fa-check-circle"></i></strong><br>
+                                    @tesla
+                                </div>
+
+                                <div class="col-xxl-3 col-xl-2 col-lg-1 ps-5 pt-1">
+                                    <button type="submit" class="btn btn-primary rounded-pill align-middle wd-follow-button">
+                                        Follow</button>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
