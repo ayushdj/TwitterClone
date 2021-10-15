@@ -32,9 +32,8 @@ const PostItem = (post) => {
                     <div style="color:white; margin-top: 5px">${post.cardTitle}</div>
                     <div style="color:rgb(110, 118, 125); font-size:13px">${post.cardContent}</div>
                     <div style="color:rgb(110, 118, 125); font-size:13px">${post.link !== "" ? "<i class=\"fas fa-link\"></i>" : ""} ${post.link}</div>
-                    
                 </div>
-                
+          
             </div>
             
             <div class="row" style="margin-left:-10px; margin-top:10px">
