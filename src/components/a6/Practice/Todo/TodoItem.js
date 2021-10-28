@@ -9,7 +9,7 @@ const TodoItem = ({
 
     }) => {
     return(
-        <li>
+        <li className="wd-todo">
             <input type="checkbox" defaultChecked={todo.done}/>
             {todo.title}
             ({todo.status})

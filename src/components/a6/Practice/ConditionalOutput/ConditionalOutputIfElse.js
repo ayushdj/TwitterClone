@@ -1,4 +1,6 @@
 import React from "react";
+import './index.css'
+
 const ConditionalOutputIfElse = () => {
     const loggedIn = true;
     if(loggedIn) {
