@@ -1,5 +1,7 @@
 import PostSummaryList from "../PostSummaryList/index.js";
 
+
+// search bar and nav bars
 const ExploreComponent = () => {
     return(`
            <div class="row">
