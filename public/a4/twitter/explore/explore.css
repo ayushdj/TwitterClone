@@ -5,24 +5,14 @@ body {
 /*
 List modifications
  */
-.list-group {
-    background-color: black;
-    !important;
-}
 
 .list-group-item {
-    background-color: black;
-    !important;
-}
-
-.list-group-item {
-    background-color: black;
+    background-color: rgb(56, 56, 56);
     color: white;
+    !important;
 }
 
-.wd-explore {
 
-}
 
 /*
 The navigation stuff
