@@ -54,7 +54,7 @@ const Profile = ({profileData}) => {
                 <div className="col-12">
                     <br/>
                     <strong style={{marginLeft:"20px", color:"white"}}>{profileData.followingCount}</strong>
-                    <span style={{color:"rgb(105, 105, 105)"}}> Followers</span>
+                    <span style={{color:"rgb(105, 105, 105)"}}> Following</span>
                     <strong style={{color:"white", marginLeft:"20px"}}> {profileData.followersCount}</strong>
                     <span style={{color:"rgb(105, 105, 105)"}}> Followers</span>
                 </div>
