@@ -9,18 +9,15 @@ import TodoList from "./Todo/TodoList";
 const Practice = () => {
     return(
         <>
-            <h1 style={{color:"white"}}>Practice</h1>
+            <h1 style={{color:"white"}}>Assignment 6 Practice</h1>
             <TodoList/>
             <TodoItem/>
             <ConditionalOutput/>
             <Styles/>
             <Classes/>
-            <Link to="/a6/hello">
-                Hello
-            </Link> |
-            <Link to="/a6/twitter/home">
-                Build
-            </Link>
+            <Link to="/a6/hello">Hello</Link> <span style={{color:"white"}}> | </span>
+            <Link to="/a6/twitter/home">Build</Link>
+
         </>
     )
 };
