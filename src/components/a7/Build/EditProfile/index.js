@@ -17,7 +17,6 @@ const EditProfile = () => {
             <div className="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
                 <ChangeProfile profileData={profile}/>
             </div>
-
         </div>
     )
 }

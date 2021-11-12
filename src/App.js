@@ -29,7 +29,6 @@ function App() {
                       <Route path="/a7/hello" exact={true}>
                           <HelloWorld/>
                       </Route>
-
                       <Route path={["", "/a7", "/a7/practice"]} exact={true}>
                           <Practice/>
                       </Route>
