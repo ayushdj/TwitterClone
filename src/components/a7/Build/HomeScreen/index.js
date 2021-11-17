@@ -4,7 +4,7 @@ import PostSummaryList from "../PostSummaryList";
 import TweetList from "../TweetList";
 import WhatsHappening from "../WhatsHappening";
 
-const HomeScreen = () => {
+const HomeScreen7 = () => {
     return(
         <div className="row py-5">
             <div className="col-2 col-md-2 col-lg-1 col-xl-2">
@@ -21,4 +21,4 @@ const HomeScreen = () => {
         </div>
     )
 }
-export default HomeScreen;
+export default HomeScreen7;

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 import {useDispatch} from "react-redux";
 import './index.css'
 
-const Profile = ({profileData}) => {
+const Profile7 = ({profileData}) => {
 
     const dispatch = useDispatch();
 
@@ -63,4 +63,4 @@ const Profile = ({profileData}) => {
     )
 }
 
-export default Profile;
+export default Profile7;

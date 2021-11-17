@@ -4,7 +4,7 @@ import './index.css'
 
 
 // search bar and nav bars
-const ExploreComponent = () => {
+const ExploreComponent7 = () => {
     return(
         <>
            <div className="row">
@@ -44,4 +44,4 @@ const ExploreComponent = () => {
         </>
     );
 }
-export default ExploreComponent;
+export default ExploreComponent7;

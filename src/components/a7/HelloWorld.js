@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-const HelloWorld = () => {
+const HelloWorld7 = () => {
     return(
         <>
             <h1 style={{color:"white"}}>Hello World!</h1>
@@ -11,4 +11,4 @@ const HelloWorld = () => {
     )
 };
 
-export default HelloWorld;
+export default HelloWorld7;

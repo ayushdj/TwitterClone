@@ -1,9 +1,9 @@
 import React from "react";
 import NavigationSidebar from "../NavigationSidebar";
-import ExploreComponent from "./ExploreComponent";
+import ExploreComponent7 from "./ExploreComponent";
 import WhoToFollowList from "../WhoToFollowList";
 
-const ExploreScreen = () => {
+const ExploreScreen7 = () => {
     return(
         <div className="row py-5">
             <div className="col-2 col-md-2 col-lg-1 col-xl-2">
@@ -11,7 +11,7 @@ const ExploreScreen = () => {
             </div>
             <div className="col-10 col-md-10 col-lg-7 col-xl-6"
                  style={{"position": "relative"}}>
-                <ExploreComponent/>
+                <ExploreComponent7/>
             </div>
             <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 col-xxl-5">
                 <WhoToFollowList/>
@@ -19,5 +19,5 @@ const ExploreScreen = () => {
         </div>
     );
 };
-export default ExploreScreen;
+export default ExploreScreen7;
 

@@ -1,0 +1,101 @@
+.wd-profile-pic {
+    width:40px;
+    height:40px;
+    margin-left:-8px;
+    margin-top:5px;
+}
+
+.wd-account-name {
+    margin-left:-40px;
+    font-size:14px;
+    color:white;
+}
+
+.wd-check {
+    color: white;
+}
+
+.wd-handleTime {
+    font-size:13px;
+    color:rgb(110, 118, 125);
+}
+
+.wd-preLink {
+    font-size:13px;
+    color:white;
+    margin-left:-40px;
+}
+
+.wd-ellipsis {
+    color:rgb(110, 118, 125);
+
+}
+
+.wd-middle-col {
+    border:1px solid rgb(110, 118, 125);
+    background-color:black;
+}
+
+.wd-imageSrc {
+    border-bottom:1px solid rgb(110, 118, 125);
+    margin-left:-16px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    margin-top: -8px;
+    max-width:105.9%;
+}
+
+.wd-cardTitle {
+    color:white;
+    margin-top:5px;
+}
+
+.wd-card-content {
+    color:rgb(110, 118, 125);
+    font-size:13px;
+}
+
+.wd-post-link {
+    color:rgb(110, 118, 125);
+    font-size:13px;
+}
+
+.wd-second-div {
+    margin-left:-10px;
+    margin-top:10px;
+}
+
+.wd-msgIcon {
+    color:rgb(110, 118, 125);
+    font-size:12px;
+}
+
+.wd-num1 {
+    color:rgb(110, 118, 125);
+    font-size:12px;
+}
+
+.wd-retweet {
+    color:rgb(110, 118, 125);
+    font-size:12px;
+}
+
+.wd-numRetweet {
+    color:rgb(110, 118, 125);
+    font-size:12px;
+}
+
+.wd-heart {
+    color:rgb(110, 118, 125);
+    font-size:12px;
+}
+
+.wd-numLikes {
+    color:rgb(110, 118, 125);
+    font-size:12px;
+}
+
+.wd-upload {
+    color:rgb(110, 118, 125);
+    font-size:12px;
+}

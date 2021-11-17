@@ -1,13 +1,13 @@
 import React from "react";
 import NavigationSidebar from "../NavigationSidebar";
 import {useSelector} from "react-redux";
-import ChangeProfile from "./ChangeProfile";
+import ChangeProfile7 from "./ChangeProfile";
 
 
 const selectProfile = (state) => state.profile;
 
 
-const EditProfile = () => {
+const EditProfile7 = () => {
     const profile = useSelector(selectProfile);
     return (
         <div className="row py-5">
@@ -15,10 +15,10 @@ const EditProfile = () => {
                 <NavigationSidebar active="profile"/>
             </div>
             <div className="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
-                <ChangeProfile profileData={profile}/>
+                <ChangeProfile7 profileData={profile}/>
             </div>
         </div>
     )
 }
 
-export default EditProfile;
+export default EditProfile7;

@@ -4,7 +4,7 @@ import {useDispatch} from "react-redux";
 import './index.css'
 import profile from "../../../../reducers/profile";
 
-const ChangeProfile = ({profileData}) => {
+const ChangeProfile7 = ({profileData}) => {
 
     let dispatch = useDispatch();
 
@@ -156,4 +156,4 @@ const ChangeProfile = ({profileData}) => {
 /*
 
  */
-export default ChangeProfile;
+export default ChangeProfile7;

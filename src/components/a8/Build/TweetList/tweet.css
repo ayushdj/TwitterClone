@@ -1,0 +1,23 @@
+.wd-avatar-image {
+    width: 48px;
+}
+
+.wd-border-radius-20px {
+    border-radius: 20px;
+}
+
+.wd-tweet-list {
+    background-color: rgb(56, 56, 56);
+}
+
+.wd-username {
+    color:white;
+}
+
+.wd-tweet-para {
+    color:white;
+}
+
+.wd-stats {
+    color:white;
+}

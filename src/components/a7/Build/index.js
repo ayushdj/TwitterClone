@@ -1,29 +1,29 @@
 import React from "react";
 import {Link, Route} from "react-router-dom";
 import './index.css'
-import ExploreScreen from "./ExploreScreen/ExploreScreen";
+import ExploreScreen7 from "./ExploreScreen/ExploreScreen";
 import HomeScreen from "./HomeScreen/index";
-import ProfileScreen from "./ProfileScreen";
+import ProfileScreen7 from "./ProfileScreen";
 import who from "../../../reducers/who";
-import EditProfile from './EditProfile'
+import EditProfile7 from './EditProfile'
 import {createStore} from "redux";
 const store = createStore(who);
 
-const Build = () => {
+const Build7 = () => {
     return(
         <>
             <div>
                 <h1 style={{color:"white"}}>Build</h1>
                 <Route path={["/", "/a7/twitter/home"]} exact={true} component={HomeScreen}/>
                 <Route path="/a7/twitter/explore"
-                       exact={true} component={ExploreScreen}/>
+                       component={ExploreScreen7}/>
                 <Route path="/a7/twitter/profile"
-                       component={ProfileScreen}/>
+                       component={ProfileScreen7}/>
                 <Route path="/a7/twitter/edit-profile"
-                       component={EditProfile}/>
+                       component={EditProfile7}/>
             </div>
         </>
     )
 };
 
-export default Build;
+export default Build7;

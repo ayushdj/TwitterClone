@@ -1,11 +1,11 @@
 import React from "react";
 import NavigationSidebar from "../NavigationSidebar";
 import {useSelector} from "react-redux";
-import Profile from './Profile'
+import Profile7 from './Profile'
 
 const selectProfile = (state) => state.profile;
 
-const ProfileScreen = () => {
+const ProfileScreen7 = () => {
     const profile = useSelector(selectProfile);
 
     return(
@@ -14,9 +14,9 @@ const ProfileScreen = () => {
                 <NavigationSidebar active="profile"/>
             </div>
             <div className="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
-                <Profile profileData={profile}/>
+                <Profile7 profileData={profile}/>
             </div>
         </div>
     )
 }
-export default ProfileScreen;
+export default ProfileScreen7;
