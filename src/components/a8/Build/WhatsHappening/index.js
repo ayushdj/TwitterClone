@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import './index.css'
 import tesla from './tesla.png'
 import {useDispatch} from "react-redux";
-import {postNewTweet, fetchAllTweets}
+import {postNewTweet}
     from "../../../../services/twitterService";
 
 
