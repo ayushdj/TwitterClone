@@ -4,7 +4,7 @@ const HelloApiClient = () => {
     const [hello, setHello] = useState('');
 
     useEffect(() => {
-        fetch('http://localhost:5000/hello')
+        fetch('http://localhost:4000/hello')
             .then(response => response.text())
             .then(text => setHello(text));
     }, []);
