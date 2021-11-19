@@ -37,8 +37,7 @@ export const deleteTweet = (dispatch, tweet) =>
 export const likeTweet = (dispatch, tweet, liked) =>
     fetch(`${TWEET_API}/${tweet._id}/like`, {
         method: 'PUT'
-    })
-        .then(response =>
+    }).then(response =>
             dispatch({
                 type: 'like-tweet',
                 tweet, liked

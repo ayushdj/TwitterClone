@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Link} from "react-router-dom"
 import {useDispatch} from "react-redux";
 import './index.css'
-import profile from "../../../../reducers/profile";
+import {updateProfile} from "../../../../services/profileService";
 
 const ChangeProfile = ({profileData}) => {
 
@@ -37,14 +37,14 @@ const ChangeProfile = ({profileData}) => {
     }
 
     const clickSaveChanges = (event) => {
-        dispatch({
-            type:'save-changes',
+        updateProfile(dispatch, {
+            ...profileData,
             firstName:firstName,
             lastName:lastName,
             bio:bio,
             location:location,
             website:website,
-            birthday:birthday
+            birthday:birthday,
         })
     }
 

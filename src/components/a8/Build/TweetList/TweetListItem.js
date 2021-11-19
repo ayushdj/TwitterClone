@@ -5,12 +5,8 @@ import TweetStats from "./TweetStats";
 import {deleteTweet}
     from "../../../../services/twitterService";
 
-
 const TweetListItem = ({tweet}) => {
     const dispatch = useDispatch();
-
-    const [liked, setLiked] = useState(false);
-
     const deleteTweetClickHandler = () => {
         deleteTweet(dispatch, tweet);
     };
@@ -21,7 +17,7 @@ const TweetListItem = ({tweet}) => {
                 <tr>
                     <td className="align-text-top">
                         <img className="rounded-circle wd-avatar-image"
-                             src={tweet['logo-image']}/>
+                             src={tweet['logo-image']} alt={"logo"}/>
                     </td>
                     <td className="ps-3" style={{width: '100%'}}>
                         <i onClick={deleteTweetClickHandler} className="fas fa-times fa-pull-right" style={{color:"white"}}/>
@@ -61,7 +57,7 @@ const TweetListItem = ({tweet}) => {
                     <span className="wd-stats"><i className="fas fa-retweet"/></span> <span className="wd-stats">{tweet.stats.retweets}</span>
                 </div>
 
-                <TweetStats tweet={tweet} liked={liked} setLiked={setLiked}/>
+                <TweetStats tweet={tweet}/>
 
                 <div className="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-1">
                     <span className="wd-stats"><i className="fas fa-upload"/></span>

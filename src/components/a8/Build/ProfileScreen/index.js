@@ -1,12 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import NavigationSidebar from "../NavigationSidebar";
-import {useSelector} from "react-redux";
+import {useSelector, useDispatch} from "react-redux";
 import Profile from './Profile'
+import {fetchProfile} from "../../../../services/profileService";
 
 const selectProfile = (state) => state.profile;
 
 const ProfileScreen = () => {
     const profile = useSelector(selectProfile);
+    const dispatch = useDispatch();
+    useEffect(() => fetchProfile(dispatch), []);
 
     return(
         <div className="row py-5">

@@ -35,6 +35,7 @@ module.exports = (app) => {
         tweets = tweets.filter(tweet => tweet._id !== id);
         res.sendStatus(200);
     }
+
     const likeTweet = (req, res) => {
         const id = req.params['id'];
         tweets = tweets.map(tweet => {

@@ -1,14 +1,22 @@
 {
   "name": "wed-dev-node",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Ayush_Dhananjai",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {},
+  "description": "\"node depoloyment\"",
+  "keywords": [
+    "heroku"
+  ]
 }

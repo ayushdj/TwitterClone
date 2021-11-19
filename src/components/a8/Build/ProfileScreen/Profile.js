@@ -3,6 +3,8 @@ import {Link} from "react-router-dom"
 import {useDispatch} from "react-redux";
 import './index.css'
 
+const selectProfile = (state) => state.profile;
+
 const Profile = ({profileData}) => {
 
     const dispatch = useDispatch();
