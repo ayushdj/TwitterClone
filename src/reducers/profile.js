@@ -12,7 +12,7 @@ const profile = (state = data, action) => {
                 "bio": action.newInformation.bio,
                 "website": action.newInformation.website,
                 "location": action.newInformation.location,
-                "dateOfBirth":action.newInformation.birthday,
+                "dateOfBirth":action.newInformation.dateOfBirth,
                 "dateJoined": "June 2013",
                 "followingCount": 69,
                 "followersCount": 420
