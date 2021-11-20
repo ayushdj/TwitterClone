@@ -44,7 +44,7 @@ const ChangeProfile = ({profileData}) => {
             bio:bio,
             location:location,
             website:website,
-            birthday:birthday,
+            dateOfBirth:birthday,
         })
     }
 

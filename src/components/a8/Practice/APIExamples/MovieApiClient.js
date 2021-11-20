@@ -9,15 +9,23 @@ const MovieApiClient = () => {
         setMovie({...movie, title: event.target.value});
         console.log("This is the new movie: " + movie.title);
 
-    const createMovieClickHandler = () =>
+    const createMovieClickHandler = () => {
+        // Create a new movie object specifically to be the payload to the server
+        const newMovie = {
+            ...movie,
+            _id: (new Date()).getTime().toString()
+        };
+
         fetch('https://web-dev-node-ayush-2.herokuapp.com/api/movies', {
             method: 'POST',
-            body: JSON.stringify(movie),
-            headers: {
-                'content-type': 'application/json'
-            }
+            body: JSON.stringify(newMovie),
+            headers: { 'content-type': 'application/json' }
         })
-            .then(response => response.json()).then(movies => setMovies(movies));
+            .then(response => response.json())
+            .then(movies => {
+                setMovies(movies);
+            })
+    }
 
 
     useEffect(() =>
@@ -32,6 +40,7 @@ const MovieApiClient = () => {
         })
             .then(response => response.json())
             .then(movies => setMovies(movies));
+
 
 
     const saveMovie = () =>
