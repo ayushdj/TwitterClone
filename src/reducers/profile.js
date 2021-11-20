@@ -17,7 +17,7 @@ const profile = (state = data, action) => {
                 "followingCount": 69,
                 "followersCount": 420
             }
-            return(updatedInfo);
+            return(updatedInfo );
 
         case 'fetch-profile-data':
             return(action.profileData);
