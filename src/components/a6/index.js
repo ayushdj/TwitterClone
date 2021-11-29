@@ -20,10 +20,9 @@ function Assignment6() {
                     <Route path={["/", "/a6", "/a6/practice"]} exact={true}>
                         <Practice/>
                     </Route>
-                    <Route path="/a6/twitter/home" exact={true}>
+                    <Route path="/a6/twitter">
                         <Build/>
                     </Route>
-                    <Route path="/a6/twitter/explore" component={ExploreScreen}/>
                 </BrowserRouter>
             </div>
         </>

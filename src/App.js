@@ -1,8 +1,7 @@
 import './App.css';
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, Route, Link} from "react-router-dom";
 import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootstrap/bootstrap.min.css';
-//import './vendors/fontawesome/css/all.min.css';
 import HelloWorld7 from "./components/a7/HelloWorld";
 import Practice7 from "./components/a7/Practice";
 import Build7 from "./components/a7/Build";
@@ -24,6 +23,9 @@ import HomeScreen from "./components/a8/Build/HomeScreen";
 import ExploreScreen from "./components/a8/Build/ExploreScreen/ExploreScreen";
 import ProfileScreen from "./components/a8/Build/ProfileScreen";
 import EditProfile from "./components/a8/Build/EditProfile";
+import A9 from "./components/a9";
+import A8 from "./components/a8";
+import Assignment7 from "./components/a7";
 
 const reducer = combineReducers({tweets: tweets, who: who, profile: profile})
 const store = createStore(reducer);
@@ -32,6 +34,33 @@ function App() {
   return (
       <>
           <Provider store={store}>
+              <BrowserRouter>
+                  <div className="container">
+                      <Link to="/a6/practice">A6</Link> <span style={{color:"white"}}> | </span>
+                      <Link to="/a7/practice">A7</Link> <span style={{color:"white"}}> | </span>
+                      <Link to="/a8/practice">A8</Link> <span style={{color:"white"}}> | </span>
+                      <Link to="/a9/practice">A9</Link>
+                      <Route path="/a9">
+                        <A9/>
+                      </Route>
+                      <Route path="/a8">
+                          <A8/>
+                      </Route>
+                      <Route path="/a7">
+                          <Assignment7/>
+                      </Route>
+                      <Route path="/a6">
+                          <Assignment6/>
+                      </Route>
+                  </div>
+              </BrowserRouter>
+          </Provider>
+      </>
+  );
+}
+
+/*
+<Provider store={store}>
               <BrowserRouter>
                   <div className="container">
                       <Route path="/a8/hello" exact={true}>
@@ -50,12 +79,10 @@ function App() {
                   </div>
               </BrowserRouter>
           </Provider>
+ */
 
-          <br/>
-          <div style={{borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20}}/>
-          <br/>
-
-          <Provider store={store}>
+/*
+<Provider store={store}>
               <BrowserRouter>
                   <div className="container">
                       <Route path="/a7/hello" exact={true}>
@@ -74,23 +101,16 @@ function App() {
                   </div>
               </BrowserRouter>
           </Provider>
+ */
 
-          <br/>
-          <div style={{borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20}}/>
-          <br/>
+/*
+<BrowserRouter>
+    <div className="container">
+        <Route path={["/a6", "/"]}>
+            <Assignment6/>
+        </Route>
+    </div>
+</BrowserRouter>
 
-          <BrowserRouter>
-              <div className="container">
-                  <Route path={["/a6", "/"]}>
-                      <Assignment6/>
-                  </Route>
-              </div>
-          </BrowserRouter>
-
-          <br/>
-          <div style={{borderTop: "2px solid #fff ", marginLeft: 20, marginRight: 20}}/>
-          <br/>
-      </>
-  );
-}
+ */
 export default App;

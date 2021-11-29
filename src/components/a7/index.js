@@ -22,7 +22,7 @@ const Assignment7 = () => {
                         <Route path={["/", "/a7", "/a7/practice"]} exact={true}>
                             <Practice/>
                         </Route>
-                        <Route path="/a7/twitter/home" exact={true}>
+                        <Route path="/a7/twitter">
                             <Build/>
                         </Route>
                     </BrowserRouter>

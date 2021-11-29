@@ -1,0 +1,24 @@
+.wd-nav-links {
+    border:none;
+    color:white;
+}
+
+.wd-nav-tabs {
+    border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.wd-cog {
+    color:rgb(29, 161, 242);
+}
+
+.wd-twitter-search {
+    padding-left:40px;
+    margin-top:-32px;
+    padding-right:300px;
+}
+
+.wd-image-caption {
+    margin-top: -55px;
+    color:white;
+    margin-left:10px;
+}

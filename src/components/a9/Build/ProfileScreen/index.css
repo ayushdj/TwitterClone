@@ -1,0 +1,67 @@
+.wd-leftArrow {
+    color:white;
+    margin-top:20px;
+}
+
+.wd-top-name {
+    color: white;
+    font-size: 20px;
+    margin-left:-30px;
+}
+
+.wd-num-tweets {
+    color: rgb(105, 105, 105);
+    margin-left:-30px;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.wd-banner {
+    width:100%;
+}
+
+.wd-ProfilePic {
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:2px solid black;
+    margin-left:30px;
+    margin-top: -60px;
+}
+
+.wd-edit-profile {
+    background-color:black;
+    border:1px solid rgb(126, 126, 126);
+    margin-top: 10px;
+}
+
+.wd-edit-profile:hover {
+    background-color: grey;
+    border:1px solid rgb(126, 126, 126);
+}
+
+.wd-top-name2 {
+    color:white;
+    font-size: 20px;
+    margin-left:20px;
+}
+
+.wd-handle {
+    color: rgb(105, 105, 105);
+    margin-left:20px;
+    font-size: 15px;
+}
+
+.wd-bio {
+    color: white;
+    margin-left:20px;
+}
+
+.wd-map {
+    color:rgb(105, 105, 105);
+    margin-left:20px;
+}
+
+.wd-loc {
+    color:rgb(105, 105, 105);
+}

@@ -17,10 +17,43 @@ const profile = (state = data, action) => {
                 "followingCount": 69,
                 "followersCount": 420
             }
-            return(updatedInfo );
-
+            return(updatedInfo);
+        case 'save-changes':
+            const newInfo = {
+                "firstName": action.firstName,
+                "lastName": action.lastName,
+                "handle": "ayushdj",
+                "profilePicture":"../../../images/profilePic.png",
+                "bannerPicture": "../../../images/coverPhoto.png",
+                "bio": action.bio,
+                "website": action.website,
+                "location": action.location,
+                "dateOfBirth": action.birthday,
+                "dateJoined": "June 2013",
+                "followingCount": 69,
+                "followersCount": 420
+            }
+            return(newInfo);
         case 'fetch-profile-data':
             return(action.profileData);
+        case 'render-mongo-data':
+            return(action.profileData);
+        case 'mongo-update-profile':
+            const newProf = {
+                "firstName": action.newProfile.firstName,
+                "lastName": action.newProfile.lastName,
+                "handle": "ayushdj",
+                "profilePicture":"../../../images/profilePic.png",
+                "bannerPicture": "../../../images/coverPhoto.png",
+                "bio": action.newProfile.bio,
+                "website": action.newProfile.website,
+                "location": action.newProfile.location,
+                "dateOfBirth":action.newProfile.dateOfBirth,
+                "dateJoined": "June 2013",
+                "followingCount": 69,
+                "followersCount": 420
+            }
+            return(newProf);
         default:
             return(state);
     }
